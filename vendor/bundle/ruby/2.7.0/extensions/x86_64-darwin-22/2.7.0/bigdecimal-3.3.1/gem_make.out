@@ -1,5 +1,5 @@
-current directory: /Users/tinh/Projects/app/app7550/vendor/bundle/ruby/2.7.0/gems/bigdecimal-3.3.1/ext/bigdecimal
-/Users/tinh/.rvm/rubies/ruby-2.7.6/bin/ruby -I /Users/tinh/.rvm/rubies/ruby-2.7.6/lib/ruby/2.7.0 -r ./siteconf20251123-9381-1lixt8t.rb extconf.rb
+current directory: /Users/tinh/Projects/app/app75_5/vendor/bundle/ruby/2.7.0/gems/bigdecimal-3.3.1/ext/bigdecimal
+/Users/tinh/.rvm/rubies/ruby-2.7.6/bin/ruby -I /Users/tinh/.rvm/rubies/ruby-2.7.6/lib/ruby/2.7.0 -r ./siteconf20251123-35784-bjokgk.rb extconf.rb
 checking for __builtin_clz()... yes
 checking for __builtin_clzl()... yes
 checking for __builtin_clzll()... yes
@@ -21,16 +21,16 @@ checking for rb_category_warn() in ruby.h... no
 checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... no
 creating Makefile
 
-current directory: /Users/tinh/Projects/app/app7550/vendor/bundle/ruby/2.7.0/gems/bigdecimal-3.3.1/ext/bigdecimal
+current directory: /Users/tinh/Projects/app/app75_5/vendor/bundle/ruby/2.7.0/gems/bigdecimal-3.3.1/ext/bigdecimal
 make "DESTDIR=" clean
 
-current directory: /Users/tinh/Projects/app/app7550/vendor/bundle/ruby/2.7.0/gems/bigdecimal-3.3.1/ext/bigdecimal
+current directory: /Users/tinh/Projects/app/app75_5/vendor/bundle/ruby/2.7.0/gems/bigdecimal-3.3.1/ext/bigdecimal
 make "DESTDIR="
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.bundle
 ld: warning: -multiply_defined is obsolete
 
-current directory: /Users/tinh/Projects/app/app7550/vendor/bundle/ruby/2.7.0/gems/bigdecimal-3.3.1/ext/bigdecimal
+current directory: /Users/tinh/Projects/app/app75_5/vendor/bundle/ruby/2.7.0/gems/bigdecimal-3.3.1/ext/bigdecimal
 make "DESTDIR=" install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bigdecimal.bundle ./.gem.20251123-9381-9upbwo
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bigdecimal.bundle ./.gem.20251123-35784-bmci08

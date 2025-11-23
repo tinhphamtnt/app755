@@ -1,4 +1,4 @@
-package com.app7550
+package com.app75_5
 
 import android.app.Application
 import com.facebook.react.PackageList
