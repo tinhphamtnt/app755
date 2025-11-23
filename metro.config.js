@@ -1,9 +1,11 @@
-{
-  transformer: {
-    babelTransformerPath: require.resolve('metro-react-native-babel-transformer')
-  },
-  resolver: {
-    sourceExts: ['jsx', 'js', 'ts', 'tsx', 'json', 'wasm', 'svg'],
-    assetExts: ['png', 'jpg', 'jpeg', 'gif', 'bmp', 'webp', 'svg']
-  }
-}
+const {getDefaultConfig, mergeConfig} = require('@react-native/metro-config');
+
+/**
+ * Metro configuration
+ * https://reactnative.dev/docs/metro
+ *
+ * @type {import('metro-config').MetroConfig}
+ */
+const config = {};
+
+module.exports = mergeConfig(getDefaultConfig(__dirname), config);

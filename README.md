@@ -1,73 +1,79 @@
-# app775
-app to check mac m1
+This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# app755
+# Getting Started
 
-## Overview
+>**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-This is a React Native project named **app755**. It is built using React Native version **0.75.5** and is designed to provide a robust structure for mobile application development.
+## Step 1: Start the Metro Server
 
-## Project Structure
+First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
-The project is organized into the following directories and files:
+To start Metro, run the following command from the _root_ of your React Native project:
 
-- **src/**: Contains the main application code.
-  - **App.tsx**: The main application component that sets up the app's structure and integrates navigation.
-  - **index.tsx**: The entry point of the application, registering the main component with the AppRegistry.
-  - **components/**: Contains reusable UI components.
-    - **ExampleComponent.tsx**: A functional component that can be reused across the application.
-  - **screens/**: Contains the different screens of the application.
-    - **HomeScreen.tsx**: The main screen of the application.
-  - **navigation/**: Sets up the navigation for the application.
-    - **index.tsx**: Exports the navigation container and stack navigators.
-  - **hooks/**: Contains custom hooks for encapsulating logic.
-    - **useExample.ts**: A custom hook for specific functionality.
-  - **utils/**: Contains utility functions.
-    - **helpers.ts**: Utility functions for use throughout the application.
-  - **types/**: Contains TypeScript types and interfaces for type safety.
-    - **index.ts**: Exports types and interfaces used in the application.
+```bash
+# using npm
+npm start
 
-- **android/**: Contains Android-specific code and configuration.
-- **ios/**: Contains iOS-specific code and configuration.
-- **.eslintrc.js**: ESLint configuration file for linting rules and settings.
-- **babel.config.js**: Babel configuration file for transpiling JavaScript code.
-- **metro.config.js**: Metro configuration file for the JavaScript bundler.
-- **package.json**: Configuration file for npm, listing dependencies and scripts.
-- **tsconfig.json**: TypeScript configuration file specifying compiler options.
+# OR using Yarn
+yarn start
+```
 
-## Getting Started
+## Step 2: Start your Application
 
-To get started with the project, follow these steps:
+Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   ```
+### For Android
 
-2. Navigate to the project directory:
-   ```
-   cd app755
-   ```
+```bash
+# using npm
+npm run android
 
-3. Install the dependencies:
-   ```
-   npm install
-   ```
+# OR using Yarn
+yarn android
+```
 
-4. Run the application:
-   - For Android:
-     ```
-     npm run android
-     ```
-   - For iOS:
-     ```
-     npm run ios
-     ```
+### For iOS
 
-## Contributing
+```bash
+# using npm
+npm run ios
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
+# OR using Yarn
+yarn ios
+```
 
-## License
+If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
-This project is licensed under the MIT License.
+This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+
+## Step 3: Modifying your App
+
+Now that you have successfully run the app, let's modify it.
+
+1. Open `App.tsx` in your text editor of choice and edit some lines.
+2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+
+   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+
+## Congratulations! :tada:
+
+You've successfully run and modified your React Native App. :partying_face:
+
+### Now what?
+
+- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
+- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+
+# Troubleshooting
+
+If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+
+# Learn More
+
+To learn more about React Native, take a look at the following resources:
+
+- [React Native Website](https://reactnative.dev) - learn more about React Native.
+- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
+- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
+- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
+- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
